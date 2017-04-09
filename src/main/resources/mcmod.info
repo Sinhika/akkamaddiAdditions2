@@ -2,14 +2,86 @@
     "modListVersion" : 2,
     "modList" : [
         {
-            "modid" : "",
-            "name" : "",
+            "modid" : "additionslib",
+            "name" : "AdditionsLib",
             "version" : "${version}",
             "mcversion" : "${mcversion}",
-            "description" : "",
+            "description" : "Module loader for akkamaddi's Additions",
+            "authorList" : [ "Sinhika" ],
+            "url" : "https://minecraft.curseforge.com/projects/akkamaddis-additions"
+        },
+         {
+            "modid" : "arsenic",
+            "name" : "Simple Arsenic and Old Lace",
+            "version" : "${version}",
+            "mcversion" : "${mcversion}",
+            "description" : "Addition of Arsenic, Arsenide Bronze, and Arsenide Gold, as well as Lace Shrouds.",
             "authorList" : [ "akkamaddi", "Sinhika" ],
             "url" : "https://minecraft.curseforge.com/projects/akkamaddis-additions"
         },
+         {
+            "modid" : "classicalalchemy",
+            "name" : "Classical Alchemy",
+            "version" : "${version}",
+            "mcversion" : "${mcversion}",
+            "description" : "Classical Alchemy, refined versions of Copper, Tin, and Bronze.",
+            "authorList" : [ "akkamaddi", "Sinhika" ],
+            "url" : "https://minecraft.curseforge.com/projects/akkamaddis-additions"
+        },
+         {
+            "modid" : "sterlingandblack",
+            "name" : "Sterling and Black",
+            "version" : "${version}",
+            "mcversion" : "${mcversion}",
+            "description" : "Sterling Steel and Black Silver alloys.",
+            "authorList" : [ "akkamaddi", "Sinhika" ],
+            "url" : "https://minecraft.curseforge.com/projects/akkamaddis-additions"
+        },
+         {
+            "modid" : "simpletungsten",
+            "name" : "Simple Tungsten",
+            "version" : "${version}",
+            "mcversion" : "${mcversion}",
+            "description" : "Tungsten Ore, with four alloys.",
+            "authorList" : [ "akkamaddi", "Sinhika" ],
+            "url" : "https://minecraft.curseforge.com/projects/akkamaddis-additions"
+        },
+         {
+            "modid" : "simplecobalt",
+            "name" : "Simple Cobalt",
+            "version" : "${version}",
+            "mcversion" : "${mcversion}",
+            "description" : "Cobalt Ore, with the alloys Blue Drift Steel, Blue Celadon, and Green Celadon.",
+            "authorList" : [ "akkamaddi", "Sinhika" ],
+            "url" : "https://minecraft.curseforge.com/projects/akkamaddis-additions"
+        },
+         {
+            "modid" : "goldenglitter",
+            "name" : "Golden Glitter",
+            "version" : "${version}",
+            "mcversion" : "${mcversion}",
+            "description" : "Four gold alloys, plus a self-powered rail.",
+            "authorList" : [ "akkamaddi", "Sinhika" ],
+            "url" : "https://minecraft.curseforge.com/projects/akkamaddis-additions"
+        },
+         {
+            "modid" : "haditecoal",
+            "name" : "Hadite Coal",
+            "version" : "${version}",
+            "mcversion" : "${mcversion}",
+            "description" : "Hadite Coal, a utility ore from the Nether, plus two alloys.",
+            "authorList" : [ "akkamaddi", "Sinhika" ],
+            "url" : "https://minecraft.curseforge.com/projects/akkamaddis-additions"
+        },
+         {
+            "modid" : "simplecthon",
+            "name" : "Simple Cthon",
+            "version" : "${version}",
+            "mcversion" : "${mcversion}",
+            "description" : "Cthon, a Nether ore.",
+            "authorList" : [ "akkamaddi", "Sinhika" ],
+            "url" : "https://minecraft.curseforge.com/projects/akkamaddis-additions"
+        }
     ]
 }
 
