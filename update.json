@@ -1,0 +1,9 @@
+{
+  "homepage": "http://minecraft.curseforge.com/projects/akkamaddis-additions/files",
+  "promos": {
+    "1.10.2-latest" : "2.0.0.0",
+    "1.10.2-recommended" : "2.0.0.0",
+    "1.11.2-latest" : "2.0.0.0",
+    "1.11.2-recommended" : "2.0.0.0"
+  }
+}
