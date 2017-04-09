@@ -1,0 +1,15 @@
+{
+    "modListVersion" : 2,
+    "modList" : [
+        {
+            "modid" : "",
+            "name" : "",
+            "version" : "${version}",
+            "mcversion" : "${mcversion}",
+            "description" : "",
+            "authorList" : [ "akkamaddi", "Sinhika" ],
+            "url" : "https://minecraft.curseforge.com/projects/akkamaddis-additions"
+        },
+    ]
+}
+
