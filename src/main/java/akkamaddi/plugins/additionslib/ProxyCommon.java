@@ -8,6 +8,7 @@ public class ProxyCommon
 {
     public void PreInit(FMLPreInitializationEvent event)
     {   
+        MainSettings.createOrLoadSettings(event);
     } // end PreInit
 
     public void Init(FMLInitializationEvent event)
