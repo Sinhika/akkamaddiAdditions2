@@ -42,6 +42,9 @@ public class ClassicalAlchemy
     @Mod.EventHandler
     public void Init(FMLInitializationEvent event)
     {
+        if (!SubModHandler.moduleEnabled(SubModHandler.MODULE_CLASSICAL_ALCHEMY)) 
+            return;
+        
         proxy.Init(event);
     } // end Init()
     
@@ -52,6 +55,9 @@ public class ClassicalAlchemy
     @Mod.EventHandler
     public void PostInit(FMLPostInitializationEvent event)
     {
+        if (!SubModHandler.moduleEnabled(SubModHandler.MODULE_CLASSICAL_ALCHEMY)) 
+            return;
+        
         proxy.PostInit(event);
    }
          

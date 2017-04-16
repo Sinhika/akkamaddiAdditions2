@@ -42,6 +42,9 @@ public class SterlingAndBlack
     @Mod.EventHandler
     public void Init(FMLInitializationEvent event)
     {
+        if (!SubModHandler.moduleEnabled(SubModHandler.MODULE_STERLING_BLACK)) 
+            return;
+        
         proxy.Init(event);
     } // end Init()
     
@@ -52,7 +55,10 @@ public class SterlingAndBlack
     @Mod.EventHandler
     public void PostInit(FMLPostInitializationEvent event)
     {
+        if (!SubModHandler.moduleEnabled(SubModHandler.MODULE_STERLING_BLACK)) 
+            return;
+        
         proxy.PostInit(event);
-   }
+    }
          
 } // end class

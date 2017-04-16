@@ -42,6 +42,9 @@ public class SimpleTungsten
     @Mod.EventHandler
     public void Init(FMLInitializationEvent event)
     {
+        if (!SubModHandler.moduleEnabled(SubModHandler.MODULE_TUNGSTEN)) 
+            return;
+        
         proxy.Init(event);
     } // end Init()
     
@@ -52,7 +55,10 @@ public class SimpleTungsten
     @Mod.EventHandler
     public void PostInit(FMLPostInitializationEvent event)
     {
+        if (!SubModHandler.moduleEnabled(SubModHandler.MODULE_TUNGSTEN)) 
+            return;
+        
         proxy.PostInit(event);
-   }
+    }
          
 } // end class

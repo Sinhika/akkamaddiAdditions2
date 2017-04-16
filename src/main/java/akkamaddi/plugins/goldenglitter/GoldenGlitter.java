@@ -42,6 +42,9 @@ public class GoldenGlitter
     @Mod.EventHandler
     public void Init(FMLInitializationEvent event)
     {
+        if (!SubModHandler.moduleEnabled(SubModHandler.MODULE_GOLDENGLITTER)) 
+            return;
+        
         proxy.Init(event);
     } // end Init()
     
@@ -52,6 +55,9 @@ public class GoldenGlitter
     @Mod.EventHandler
     public void PostInit(FMLPostInitializationEvent event)
     {
+        if (!SubModHandler.moduleEnabled(SubModHandler.MODULE_GOLDENGLITTER)) 
+            return;
+        
         proxy.PostInit(event);
    }
          
