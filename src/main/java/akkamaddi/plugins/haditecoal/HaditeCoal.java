@@ -1,4 +1,4 @@
-package akkamaddi.plugins.goldenglitter;
+package akkamaddi.plugins.haditecoal;
 
 import akkamaddi.plugins.additionslib.SubModHandler;
 import alexndr.api.registry.Plugin;
@@ -11,13 +11,13 @@ import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 @Mod(modid = ModInfo.ID, name = ModInfo.NAME, version = ModInfo.VERSION, 
 acceptedMinecraftVersions=ModInfo.ACCEPTED_VERSIONS,
 dependencies = ModInfo.DEPENDENCIES, updateJSON=ModInfo.VERSIONURL)
-public class GoldenGlitter
+public class HaditeCoal
 {
     @Mod.Instance(value = ModInfo.ID)
-    public static GoldenGlitter INSTANCE;
+    public static HaditeCoal INSTANCE;
 
-    @SidedProxy(clientSide = "akkamaddi.plugins.goldenglitter.ProxyClient", 
-                    serverSide = "akkamaddi.plugins.goldenglitter.ProxyCommon")
+    @SidedProxy(clientSide = "akkamaddi.plugins.haditecoal.ProxyClient", 
+                    serverSide = "akkamaddi.plugins.haditecoal.ProxyCommon")
     public static ProxyCommon proxy;
 
     public static Plugin plugin = new Plugin(ModInfo.ID, ModInfo.NAME);
@@ -29,7 +29,7 @@ public class GoldenGlitter
     @Mod.EventHandler
     public void PreInit(FMLPreInitializationEvent event)
     {
-        if (!SubModHandler.moduleEnabled(SubModHandler.MODULE_GOLDENGLITTER)) 
+        if (!SubModHandler.moduleEnabled(SubModHandler.MODULE_HADITE)) 
             return;
         
         proxy.PreInit(event);
