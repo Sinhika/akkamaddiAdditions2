@@ -15,8 +15,8 @@ public class AdditionsLib
     @Mod.Instance(value = ModInfo.ID)
     public static AdditionsLib INSTANCE;
 
-    @SidedProxy(clientSide = "akkamaddi.plugins.additionsLib.ProxyClient", 
-                serverSide = "akkamaddi.plugins.additionsLib.ProxyCommon")
+    @SidedProxy(clientSide = "akkamaddi.plugins.additionslib.ProxyClient", 
+                serverSide = "akkamaddi.plugins.additionslib.ProxyCommon")
     public static ProxyCommon proxy;
 
     public static Plugin plugin = new Plugin(ModInfo.ID, ModInfo.NAME);
