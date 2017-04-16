@@ -30,7 +30,7 @@ public class MainSettings
      */
     public static void createOrLoadSettings(FMLPreInitializationEvent event) 
     {
-        config = GetConfig(event, "akkamaddi", "modules.cfg");
+        config = GetConfig(event, "akkamaddi", "additions_modules.cfg");
         try {
             LogHelper.verbose(ModInfo.ID, "Loading Settings...");
             config.load();
