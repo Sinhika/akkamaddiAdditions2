@@ -1,6 +1,6 @@
 package akkamaddi.plugins.additionslib.helpers;
 
-public class TabHelper extends alexndr.api.helpers.game.TabHelper
+public class AdditionsTabHelper extends alexndr.api.helpers.game.TabHelper
 {
     protected static boolean tabInitDone = false;
     

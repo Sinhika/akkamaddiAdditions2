@@ -2,7 +2,7 @@ package akkamaddi.plugins.additionslib;
 
 import java.util.List;
 
-import akkamaddi.plugins.additionslib.helpers.TabHelper;
+import akkamaddi.plugins.additionslib.helpers.AdditionsTabHelper;
 import alexndr.api.content.inventory.SimpleTab;
 import alexndr.api.logger.LogHelper;
 import alexndr.api.registry.ContentCategories;
@@ -75,7 +75,7 @@ public class AdditionsLib
         additionTools = new SimpleTab(AdditionsLib.plugin, "AdditionTools", ContentCategories.CreativeTab.TOOLS);
         additionCombat = new SimpleTab(AdditionsLib.plugin, "AdditionCombat", ContentCategories.CreativeTab.COMBAT);
         additionRedstone = new SimpleTab(AdditionsLib.plugin, "AdditionRedstone", ContentCategories.CreativeTab.REDSTONE);
-        TabHelper.setTabInitDone(true);
+        AdditionsTabHelper.setTabInitDone(true);
     } // end tabPreInit()
     
     /**
@@ -99,7 +99,7 @@ public class AdditionsLib
             additionMaterials.setIcon(iconItemsList.get(2));
             additionTools.setIcon(iconItemsList.get(3));
             additionCombat.setIcon(iconItemsList.get(4));
-            additionRedstone.setIcon(iconItemsList.get(4));
+            additionRedstone.setIcon(iconItemsList.get(5));
         } // end-if !iconsSet
     } // end setTabIcons()
 
