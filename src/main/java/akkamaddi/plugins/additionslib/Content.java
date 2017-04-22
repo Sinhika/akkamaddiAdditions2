@@ -37,7 +37,7 @@ public class Content
                         .setUnlocalizedName("icon_tool");
         icon_block = new SimpleBlock(AdditionsLib.plugin, Material.ROCK, ContentCategories.Block.ORE)
                         .setUnlocalizedName("icon_block");
-        icon_block = new SimpleBlock(AdditionsLib.plugin, Material.IRON, ContentCategories.Block.OTHER)
+        icon_decoration = new SimpleBlock(AdditionsLib.plugin, Material.IRON, ContentCategories.Block.OTHER)
                         .setUnlocalizedName("icon_decoration");
     } /* end doIconObjects() */
     

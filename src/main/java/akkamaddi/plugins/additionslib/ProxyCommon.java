@@ -38,10 +38,13 @@ public class ProxyCommon
     private static void setTabIcons() 
     {
         LogHelper.verbose("additionsLib", "Setting tab icons");
-        List<Item> list = Lists.newArrayList(Item.getItemFromBlock(Content.icon_block), 
+        List<Item> list = Lists.newArrayList(
+                    Item.getItemFromBlock(Content.icon_block), 
                     Item.getItemFromBlock(Content.icon_decoration), 
-                    Content.icon_material, Content.icon_tool, Content.icon_combat,
-                    Item.getItemFromBlock(Blocks.FURNACE));
+                    Content.icon_material, 
+                    Content.icon_tool, 
+                    Content.icon_combat,
+                    Item.getItemFromBlock(Blocks.RAIL));
         AdditionsLib.setTabIcons(list);
     }
   
