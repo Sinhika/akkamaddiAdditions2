@@ -6,7 +6,6 @@ import com.google.common.collect.Lists;
 
 import alexndr.api.logger.LogHelper;
 import alexndr.api.registry.ContentRegistry;
-import net.minecraft.init.Blocks;
 import net.minecraft.item.Item;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
@@ -44,7 +43,7 @@ public class ProxyCommon
                     Content.icon_material, 
                     Content.icon_tool, 
                     Content.icon_combat,
-                    Item.getItemFromBlock(Blocks.RAIL));
+                    Content.icon_redstone);
         AdditionsLib.setTabIcons(list);
     }
   

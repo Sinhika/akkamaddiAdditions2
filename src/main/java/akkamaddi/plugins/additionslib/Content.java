@@ -39,8 +39,10 @@ public class Content
                         .setUnlocalizedName("icon_block");
         icon_decoration = new SimpleBlock(AdditionsLib.plugin, Material.IRON, ContentCategories.Block.OTHER)
                         .setUnlocalizedName("icon_decoration");
+        icon_redstone = new SimpleItem(AdditionsLib.plugin, ContentCategories.Item.OTHER)
+                        .setUnlocalizedName("icon_redstone");
     } /* end doIconObjects() */
     
-    public static Item icon_combat, icon_material, icon_tool;
+    public static Item icon_combat, icon_material, icon_tool, icon_redstone;
     public static Block icon_block, icon_decoration;
 } // end class
