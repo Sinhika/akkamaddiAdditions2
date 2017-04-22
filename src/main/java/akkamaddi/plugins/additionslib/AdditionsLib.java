@@ -31,7 +31,7 @@ public class AdditionsLib
     /* Creative Tabs stuff */
     private static boolean iconsSet = false;
     private static SimpleTab additionBlocks, additionDecorations, additionMaterials, 
-                             additionTools, additionCombat;
+                             additionTools, additionCombat, additionRedstone;
     
     /**
      * Called during the PreInit phase.
@@ -74,6 +74,7 @@ public class AdditionsLib
         additionMaterials = new SimpleTab(AdditionsLib.plugin, "AdditionMaterials", ContentCategories.CreativeTab.MATERIALS);
         additionTools = new SimpleTab(AdditionsLib.plugin, "AdditionTools", ContentCategories.CreativeTab.TOOLS);
         additionCombat = new SimpleTab(AdditionsLib.plugin, "AdditionCombat", ContentCategories.CreativeTab.COMBAT);
+        additionRedstone = new SimpleTab(AdditionsLib.plugin, "AdditionRedstone", ContentCategories.CreativeTab.REDSTONE);
         TabHelper.setTabInitDone(true);
     } // end tabPreInit()
     
@@ -85,7 +86,7 @@ public class AdditionsLib
      * 3. AdditionsMaterials.
      * 4. AdditionsTools.
      * 5. AdditionsCombat.
-     * 6. AdditionsMachines - NOT USED
+     * 6. AdditionsRedstone
      * @param iconItemsList List of Items with which to set the tab icons
      */
     public static void setTabIcons(List<Item> iconItemsList) 
@@ -98,6 +99,7 @@ public class AdditionsLib
             additionMaterials.setIcon(iconItemsList.get(2));
             additionTools.setIcon(iconItemsList.get(3));
             additionCombat.setIcon(iconItemsList.get(4));
+            additionRedstone.setIcon(iconItemsList.get(4));
         } // end-if !iconsSet
     } // end setTabIcons()
 
