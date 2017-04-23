@@ -3,6 +3,7 @@ package akkamaddi.plugins.arsenic;
 import akkamaddi.plugins.additionslib.SubModHandler;
 import alexndr.api.registry.Plugin;
 import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.fml.common.Loader;
 import net.minecraftforge.fml.common.SidedProxy;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
@@ -30,8 +31,9 @@ public class ArsenicAndLace
     public void PreInit(FMLPreInitializationEvent event)
     {
         if (!SubModHandler.moduleEnabled(SubModHandler.MODULE_ARSENIC)) 
-            return;
-        
+        {
+             return;
+        }
         proxy.PreInit(event);
     } // end PreInit()
     
